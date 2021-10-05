@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: white;/*#4e0505;*/
+    background-color: #4e0505;
 }
 
 /* Header*/
@@ -17,16 +17,17 @@ header{
     font-family: Roboto, Geneva, Tahoma, sans-serif;
 }
 .logo{
-    width: 5orem;
-    height: 50rem;
+    width: 3rem;
+    height: 3rem;
     margin: 0 0.7rem 0 4rem;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 2rem;
 }
 li{
     display: inline-block;
-    margin-right: 5em;
-    width: 50px;
+    margin-right: 3em;
+    width: 10rem;
+    min-width: 3rem;
 }
 .pagename{
     flex-grow: 3;
@@ -51,22 +52,21 @@ a{
     background-color: white;
     font-family: Futura, Geneva, Tahoma, sans-serif;
     color:black;
-    margin-bottom: 10px;
-    padding: 20px;
+    padding: 1rem;
     overflow: scroll;
 }
 .banner{
-    padding: 50px;
+    padding: 5rem;
     line-height: 1.5;
     margin-left: 50%;
     color: rgba(255, 255, 255, 0.9);
-    font-size: 72px;
+    font-size: 6rem;
     text-align: right;
 }
 .regionName {
-    padding: 20px;
+    padding: 1rem;
     color: black;
-    font-size: 72px;
+    font-size: 5rem;
     text-align: left;
     /*border:1px solid black;*/
 }
@@ -76,7 +76,7 @@ p{
     line-height: 2;
     text-align: left;
     /*border:1px solid black;*/
-    margin-left: 5px;
+    margin-left: 1rem;
     width: 75%;
     margin: 0 auto;
 }
