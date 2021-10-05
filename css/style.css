@@ -1,0 +1,107 @@
+/* Body and General style rules*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4e0505;
+}
+
+/* Header*/
+header{
+    display: flex;
+    align-items: center;
+    height: 5em;
+    color: white;
+    font-family: Roboto, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin: 0 0.7em 0 4em;
+    background-color: white;
+    border-radius: 20px;
+}
+li{
+    display: inline-block;
+    margin-right: 5em;
+}
+.pagename{
+    flex-grow: 3;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Main section*/
+.home{
+    background: url("../images/home.jpg") center center no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 55em;
+    font-family: Roboto, Geneva, Tahoma, sans-serif;
+}
+.region{
+    /*display: flex;
+    justify-content: center;
+    align-items: top;*/
+    background-color: white;
+    font-family: Futura, Geneva, Tahoma, sans-serif;
+    color:black;
+    margin-bottom: 10px;
+    padding: 20px;
+    overflow: scroll;
+}
+.banner{
+    padding: 50px;
+    line-height: 1.5;
+    margin-left: 50%;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 72px;
+    text-align: right;
+}
+.regionName {
+    padding: 20px;
+    color: black;
+    font-size: 72px;
+    text-align: left;
+    /*border:1px solid black;*/
+}
+p{
+    padding: 20px;
+    font-family: Roboto, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+    text-align: left;
+    /*border:1px solid black;*/
+    margin-left: 5px;
+    width: 75%;
+    margin: 0 auto;
+}
+div>a{
+    color: black;
+    text-align: center;
+}
+.presentation{
+    margin: 20px;
+    width: 400px;
+    height: 500px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/*Footer*/
+footer{
+    color: rgba(255, 255, 255, 0.4);
+    padding: 20px 20px;
+    height: 5em;
+    font-family: Roboto, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+
+
