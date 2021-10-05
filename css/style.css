@@ -26,6 +26,7 @@ header{
 li{
     display: inline-block;
     margin-right: 5em;
+    width: 50px;
 }
 .pagename{
     flex-grow: 3;
